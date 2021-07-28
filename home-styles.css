@@ -1,0 +1,421 @@
+body{
+margin-top: 0px;
+padding-top: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+  padding: 0px;
+}
+  /* ----------------contenedor1------------------ */
+
+.navbar-brand img{
+  width: 70px;  
+  }
+
+
+ /* ----------------parrafo de home----------------- */
+.parrafo{  
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  font-family: Arteagra sans light;
+  font-size: 1.3vw;  
+}
+/* ----------------parrafo de home----------------- */
+
+
+  /* ----------------contenedor2------------------ */
+.container2{
+  width: 100%;
+  margin: center;
+}
+.primer video{
+  width: 100%;
+}
+
+  /* ----------------contenedor3------------------ */
+.container3{
+  border-top: -10px;
+  text-align: justify-all;
+
+}
+.QS{
+  background-color:#C1C1C1 !important;
+  padding: 30px 0px 30px 0px;
+
+}
+  
+.quienesSomos {
+  border-image: initial; border: 2px solid green;
+  font-size: 2vw; 
+  font-family: MONTSERRAT REGULAR ;
+  padding: 7px 10px 7px 10px;
+  letter-spacing: 0.5vw;
+}
+
+
+  /* ----------------contenedor4------------------ */
+
+.container4{
+  background-image: url(img/pasto.jpg);
+  background-size: 100%;   
+  font-family: Arial;
+  width: 100%;
+  height: 100%;
+  text-align: center; 
+}
+.mapa{
+  top: 90px;
+}
+  /* ----------------contenedor5------------------ */
+.container5{
+  text-align: center;
+}
+.QH{
+    padding: 30px 0px 30px 0px; 
+    margin-top: -60px;
+    background-color:  #C1C1C1 !important;
+  }
+.queHacemos {
+    border-image: initial; border: 2px solid yellow;
+    font-size: 2vw;
+    font-family: MONTSERRAT REGULAR ;
+    padding: 7px 10px 7px 10px;
+    letter-spacing: 0.5vw;
+  }
+  /* ----------------contenedor6------------------ */
+.container6{
+  text-align: center;  
+}
+
+
+
+
+
+ /* ----------------contenedor66------------------ */
+
+.containerSeis { 
+  height: 100vh;
+  width: 100%;
+  
+  background: #84e8dc;
+  background: -moz-linear-gradient(-45deg, #84e8dc 0%, #f4ed8b 100%);
+  background: -webkit-linear-gradient(-45deg, #84e8dc 0%, #f4ed8b 100%);
+  background: linear-gradient(135deg, #84e8dc 0%, #f4ed8b 100%);   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+
+
+}
+.snipa {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snipa img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snipa:hover img,
+.snipa.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.columna66 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+
+.fila66::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  /* ----------------contenedor7------------------ */
+.container7{
+  text-align: center;
+}
+.S{
+    background-color: #C1C1C1 !important;
+    padding: 30px 0px 30px 0px; 
+    }
+.serviciosParrafo {
+    border-image: initial; border: 2px solid green;
+    font-size: 2vw; 
+    font-family: MONTSERRAT REGULAR ;
+    padding: 7px 10px 7px 10px;
+    letter-spacing: 0.5vw;
+  }
+/* ----------------contenedor8------------------ */
+.container8{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel__contenedor {
+  position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__anterior {
+  left: -30px;
+}
+
+.carousel__siguiente {
+  right: -30px;
+}
+
+.carousel__lista {
+  overflow: hidden;
+}
+
+.carousel__elemento {
+  text-align: center;
+}
+
+
+.carousel__indicadores .glider-dot:hover {
+  opacity: .9;
+}
+
+.carousel__indicadores .glider-dot.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 40px 0;
+  }
+
+  .contenido-principal {
+    flex-direction: column;
+  }
+
+  .contenido-principal > * {
+    width: 100%;
+  }
+}
+/* ----------------contenedor9------------------ */
+
+
+
+.container9{
+  background-color: lightgreen;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.botonSTAFF{
+  background-color: #F7F7F7 !important;
+  padding: 30px 0px 30px 0px; 
+}
+.staffhome b{
+  border-image: initial; border: 2px solid green;
+  font-size: 2vw; 
+  font-family: MONTSERRAT REGULAR ;
+  padding: 7px 10px 7px 10px;
+  letter-spacing: 0.9vw;
+}
+
+.carousel__contenedor {
+  position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__anterior {
+  left: -30px;
+}
+
+.carousel__siguiente {
+  right: -30px;
+}
+
+.carousel__lista {
+  overflow: hidden;
+}
+
+.carousel__elemento {
+  text-align: center;
+}
+
+
+.carousel__indicadores .glider-dot:hover {
+  opacity: .9;
+}
+
+.carousel__indicadores .glider-dot.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 40px 0;
+  }
+
+  .contenido-principal {
+    flex-direction: column;
+  }
+
+  .contenido-principal > * {
+    width: 100%;
+  }
+}
+
+
+
+  /* ----------------contenedor10------------------ */
+.container10{
+  text-align: center;
+ 
+}
+.contactosimte{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.botonCONTACTO{
+  background-color: #F7F7F7 !important;
+  padding: 30px 0px 30px 0px; 
+}
+.contactohome b{
+  border-image: initial; border: 2px solid green;
+  font-size: 2vw; 
+  font-family: MONTSERRAT REGULAR ;
+  padding: 7px 10px 7px 10px;
+  letter-spacing: 0.9vw;
+}
+
+/* ----------------contenedor-11----------------- */
+
+.container11{
+  text-align: center;
+}
+  /* ----------------contenedor--12---------------- */
+.container12{
+  text-align: center;
+}
+  /* ----------------contenedor---13--------------- */
+.container13{
+  text-align: center;
+}
+  /* ----------------contenedor--14---------------- */
+.container14{
+  background:#555555;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.ultima{
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  }
+.ultima img{
+  width: 200px;
+  margin: 1px 0px 15px 0px;
+  padding: 1px 0px 15px 0px;
+  }
+.direccion{
+  width: 180px;
+  margin: 0px 40px 0px 0px;
+  }
+.telefono{
+  margin: 60px 145px 0px 60px;
+  }
+.mail{
+  margin: 0px 0px 0px 60px;
+  }
+.aba{
+  display: inline-block;
+  }
+  /* ----------------contenedor--15---------------- */
+.container15{
+  
+  
+}
+
+
+
+
+
+
+
+
+.formulario{
+	margin: 0 auto;
+	width: 80%;
+}
+.ubicacion{
+  background-image: url(https://external.faqp5-2.fna.fbcdn.net/static_map.php?v=2015&osm_provider=2&ccb=4-4&size=466x166&language=es_LA&scale=1&zoom=14&center=-15.552532312914%2C-70.239389208717&marker_list[0]=-15.556532312914%2C-70.239389208717);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 166px;
+  width: 466px;
+}
+

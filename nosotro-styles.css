@@ -1,0 +1,57 @@
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+.container-noso2{
+  
+}
+.ima img{
+ width: 100%;
+}
+.txtnoso{
+  text-align: center;
+}
+
+
+
+.container-noso3{
+  text-align: center;
+}
+.aspaah {
+  color: #FF0000;
+}
+
+      
+
+.container-noso4{
+  background: #009688;
+}
+
+
+
+
+  /* ----------------contenedor5------------------ */
+.container-noso5{
+
+}
+.titulos {
+  display: inline-block;
+  justify-content: center;
+  text-decoration: none;
+}
+.container-noso6{
+
+}
+  /* ----------------contenedor7------------------ */
+
+  /* el pie de pagina esta en home estilos*/
+
+  /* ----------------contenedor8------------------ */
+
+  /* derechos de autor esta en ho styles
+   */
